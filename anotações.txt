@@ -1,0 +1,8 @@
+Ctrl ; 
+ajuda a comentar uma linha do código, sem precisar digitar <-- -->
+
+target="_blank" 
+abre o link em outra aba
+
+target="_self"
+abre o link na mesma aba
