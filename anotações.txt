@@ -6,3 +6,6 @@ abre o link em outra aba
 
 target="_self"
 abre o link na mesma aba
+
+rowspan = serve para mesclar linhas
+cowspan = serve pra mesclar colunas
