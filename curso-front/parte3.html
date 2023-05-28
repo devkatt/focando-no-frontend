@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evoluindo no front-end</title>
+</head>
+<body>
+    <main>
+        <h1>Criando tabelas</h1>
+
+        <section id="estudantes">
+            <table border="2">
+                <thead> <!--cabeçalho da tabela-->
+                    <tr> <!--linhas da tabela-->
+                        <th> Nome <!-- título dos dados da tabela--></th>                       
+                        <th> E-mail</th>
+                        <th> Matricula</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td> <!-- dados da tabela--> Ana</td>
+                        <td> ana@gmail.com</td>
+                        <td>1</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>João</td>
+                        <td>Joao@gmail.com</td>
+                        <td>2</td>
+                    </tr>
+
+                    
+                    <tr>
+                        <td>Carlos</td>
+                        <td>carlos@gmail.com</td>
+                        <td>3</td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </section>
+
+        <section id="financeiro">
+            <table border="2">
+                <thead> <!--cabeçalho da tabela-->
+                    <tr> <!--linhas da tabela-->
+                        <th> Data <!-- título dos dados da tabela--></th>                       
+                        <th> Tipo</th>
+                        <th> Descrição</th>
+                        <th> Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2"> <!-- dados da tabela--> 28/05/2023</td>
+                        <td>Despesa</td>
+                        <td>Almoço</td>                        
+                        <td>R$ 35,00</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Receita</td>
+                        <td>Salário</td>                        
+                        <td>R$ 3.768,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
